@@ -107,14 +107,16 @@ app/
 - **DataStore**: Preferences (prepared, not yet used)
 - **Timber**: Logging
 
-## Next Phase: Phase 2 - Application Manager
+## Next Phase: Phase 2 - Desktop Shell
 
 Phase 2 will implement:
-- Scan installed Android applications
-- Start menu lists actual apps
-- Launch applications via intents
-- Track running applications in taskbar
-- Basic app switching
+- Polished desktop workspace
+- Enhanced taskbar with system indicators
+- Functional Start menu with app launcher
+- Desktop search interface
+- Wallpaper support
+- System tray placeholders
+- Improved responsive layout
 
 ## Known Limitations (Phase 1)
 
@@ -166,18 +168,15 @@ adb logcat | grep "Desktop"
 | Phase | Title | Status | ETA |
 |-------|-------|--------|-----|
 | 1 | Foundation & Empty Desktop | ✅ Complete | - |
-| 2 | Application Manager | 📅 Planned | Week 2 |
+| 2 | Desktop Shell | 📅 Planned | Week 2 |
 | 3 | Window Manager (Core) | 📅 Planned | Week 3-4 |
-| 4 | File Manager | 📅 Planned | Week 4-5 |
-| 5 | Terminal (Basic) | 📅 Planned | Week 5-6 |
-| 6 | Window System Refinement | 📅 Planned | Week 6-7 |
+| 4 | Android App Integration | 📅 Planned | Week 4-5 |
+| 5 | File Manager | 📅 Planned | Week 5-6 |
+| 6 | Terminal (Basic) | 📅 Planned | Week 6-7 |
 | 7 | Settings & Customization | 📅 Planned | Week 7-8 |
-| 8 | Advanced Window Features | 📅 Planned | Week 8-9 |
-| 9 | Notifications & System Tray | 📅 Planned | Week 9-10 |
-| 10 | Clipboard & Drag-Drop | 📅 Planned | Week 10-11 |
-| 11 | Performance Optimization | 📅 Planned | Week 11-12 |
-| 12 | Polish & Bug Fixes | 📅 Planned | Week 12-13 |
-| 13 | Advanced Features (Post-MVP) | 📅 Future | TBD |
+| 8 | Notifications & System Tray | 📅 Planned | Week 8-9 |
+| 9 | Polish & Performance | 📅 Planned | Week 9-10 |
+| 10 | Final Release | 📅 Planned | Week 10-11 |
 
 ## Contributing
 
